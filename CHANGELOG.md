@@ -1,3 +1,21 @@
+## 3.6.2
+
+* Added support for the latest version of the Omani ID for both citizens and residents.
+* Fixed an issue on iOS 26.2 and later where activating the torch could cause the screen to freeze.
+
+## 3.6.1
+
+* Android SDK
+  - Added **edge-to-edge display support**.
+  - Fixed a **race condition** that could cause a crash when **scan review** was enabled.
+  - Implemented additional safeguards to reduce or prevent minor crashes reported by customers.
+* iOS SDK
+  - Fixed minor layout issues on **iOS 26.x**.
+  - Resolved **mapping inconsistencies** between platform and device models, and updated the mapping according to the latest **Xcode 26** device information. *
+* Android & iOS SDK
+  - Improved **NFC reading reliability** for documents supporting **chip authentication**, if **DG14** is malformed, it is now safely ignored.
+  - Enhanced the **tracing mechanism** by adding missing trace points for unexpected errors.
+
 ## 3.6.0
 
 * Android SDK:
